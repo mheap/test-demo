@@ -1,7 +1,7 @@
 _id: spc_9c3d380f8d2a45318f8b01119cd37408
 type: ApiSpec
 parentId: wrk_f811f7dcabca4331a4b9237014cf040c
-modified: 1652876803334
+modified: 1652877019125
 created: 1652866212896
 fileName: summit-demo
 contents: >-
@@ -130,7 +130,7 @@ contents: >-
           in: path
           required: true
           description: The ID of the session to load
-          example: "1"
+          example: "2"
       get:
         summary: Fetch Summit session
         tags:

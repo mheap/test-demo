@@ -1,0 +1,10 @@
+name: Demo
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download
+        run: wget https://mheap-demos.s3.eu-west-2.amazonaws.com/inso-custom-rulesets
+      - name: Run It
+        run: chmod +x ./inso-custom-rulesets && ./inso-custom-rulesets

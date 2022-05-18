@@ -1,0 +1,21 @@
+_id: req_wrk_f811f7dcabca4331a4b9237014cf040c36d8323c
+type: Request
+parentId: wrk_f811f7dcabca4331a4b9237014cf040c
+modified: 1652872604391
+created: 1652872604391
+url: "{{ base_url }}/sessions/{{ id }}"
+name: Fetch Summit session
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652872604392
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

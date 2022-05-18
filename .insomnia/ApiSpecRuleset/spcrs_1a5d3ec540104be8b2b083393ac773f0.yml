@@ -1,0 +1,8 @@
+_id: spcrs_1a5d3ec540104be8b2b083393ac773f0
+type: ApiSpecRuleset
+parentId: wrk_f811f7dcabca4331a4b9237014cf040c
+modified: 1652866262098
+created: 1652866261551
+name: New Ruleset
+contents: 'extends: "spectral:oas"'
+contentType: yaml

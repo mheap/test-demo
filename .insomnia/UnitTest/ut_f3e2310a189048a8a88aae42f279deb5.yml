@@ -1,0 +1,13 @@
+_id: ut_f3e2310a189048a8a88aae42f279deb5
+type: UnitTest
+parentId: uts_21b335c285f84196a7ff309263ac92c5
+modified: 1652873317670
+created: 1652872304140
+requestId: req_wrk_f811f7dcabca4331a4b9237014cf040c49057e04
+name: Product list is accurate
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  expect(body[0].name).to.equal("Gateway");
+  expect(body[1].name).to.equal("Insomnia");
+  expect(body[2].name).to.equal("Developer Portal");

@@ -1,0 +1,24 @@
+_id: req_wrk_f811f7dcabca4331a4b9237014cf040c7d98e616
+type: Request
+parentId: wrk_f811f7dcabca4331a4b9237014cf040c
+modified: 1652872604393
+created: 1652872604393
+url: "{{ base_url }}/sessions"
+name: List Summit sessions
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: date
+    disabled: true
+    value: 2021-09-28
+headers: []
+authentication: {}
+metaSortKey: -1652872604393
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
